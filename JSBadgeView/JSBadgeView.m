@@ -41,7 +41,7 @@
 #endif
 
 static const CGFloat JSBadgeViewShadowRadius = 1.0f;
-static const CGFloat JSBadgeViewHeight = 16.0f;
+static const CGFloat JSBadgeViewHeight = 17.0f;
 static const CGFloat JSBadgeViewTextSideMargin = 8.0f;
 static const CGFloat JSBadgeViewCornerRadius = 10.0f;
 
