@@ -1,5 +1,10 @@
 ## JSBadgeView
 
+[![CI Status](http://img.shields.io/travis/JaviSoto/JSBadgeView.svg?style=flat)](https://travis-ci.org/JaviSoto/JSBadgeView)
+[![Version](https://img.shields.io/cocoapods/v/JSBadgeView.svg?style=flat)](http://cocoapods.org/pods/JSBadgeView)
+[![License](https://img.shields.io/cocoapods/l/JSBadgeView.svg?style=flat)](http://cocoapods.org/pods/JSBadgeView)
+[![Platform](https://img.shields.io/cocoapods/p/JSBadgeView.svg?style=flat)](http://cocoapods.org/pods/JSBadgeView)
+
 Customizable UIKit badge view like the one on applications in the iOS springboard.
 Very optimized for performance: drawn entirely using CoreGraphics.
 
@@ -69,7 +74,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/JaviSoto/jsbadgeview/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
