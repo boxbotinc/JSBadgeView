@@ -335,6 +335,13 @@ static BOOL JSBadgeViewIsUIKitFlatMode(void)
     }
 }
 
+- (void)setBadgeTextPosition:(CGPoint)badgeTextPosition
+{
+    _badgeTextPosition = badgeTextPosition;
+    
+    [self setNeedsDisplay];
+}
+
 #pragma mark - Drawing
 
 - (void)drawRect:(CGRect)rect
@@ -413,7 +420,7 @@ static BOOL JSBadgeViewIsUIKitFlatMode(void)
             textFrame.size.height = textSize.height;
             textFrame.origin.y = rectToDraw.origin.y + floorf((rectToDraw.size.height - textFrame.size.height) / 2.0f);
 
-            if (self.badgeTextPosition) {
+            if (self.badgeTextPosition.x != 0 || self.badgeTextPosition.y != 0) {
                 textFrame.origin = self.badgeTextPosition;
             }
             
