@@ -93,6 +93,11 @@ typedef NS_ENUM(NSUInteger, JSBadgeViewAlignment)
 @property (nonatomic, assign) CGFloat badgeMinWidth UI_APPEARANCE_SELECTOR;
 
 /**
+ * Customize the badge's text frame's position
+ */
+@property (nonatomic, assign) CGPoint badgeTextPosition UI_APPEARANCE_SELECTOR;
+
+/**
  * Optionally init using this method to have the badge automatically added to another view.
  */
 - (id)initWithParentView:(UIView *)parentView alignment:(JSBadgeViewAlignment)alignment;
